@@ -9,10 +9,10 @@ from modules.create_index import crete_index, create_pdf_index
 
 merger = PdfWriter()
 book_name = 'aws_solutions_architect_associate_notes'
-notes_folder = "../notes/"
-pngs_folder = "../pngs/"
+notes_folder = "../notes_example/"
+pngs_folder = "../pngs_example/"
 correction = 2
-paths_pdf = ["../pdfs/", "../book/"]
+paths_pdf = ["../pdfs/", "../book_example/"]
 
 
 def get_pngs_list(pngs_folder):
